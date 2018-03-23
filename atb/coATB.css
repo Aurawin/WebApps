@@ -1,0 +1,235 @@
+Header{
+  content: '/atb/coATB.css'
+}
+html, body {
+  background-color:gray;
+}
+{$i FontFace.css}
+{$i TopNavBar.css}
+
+div.cmpWrapper{
+  display:block;
+  position:absolute;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  background-image: url('/core/vdm/imgs/slds/gph.jpg');
+}
+div.vdmWrapper{
+  position:absolute;
+  display:block;
+  top: 52px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+div.Screen{
+  display:none;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  opacity: 0;
+
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+div.ATB{
+  display: block;
+  position:absolute;
+
+  border: 0px solid rgba(0,0,0,0);
+
+  border-top-width:0px;
+  border-left-width: 0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  top: 0px;
+  left: 0px;
+}
+div.bdrATB{
+  display: block;
+  position:absolute;
+
+  border: 0px solid rgba(0,0,0,0);
+
+  border-top-width:0px;
+  border-left-width: 0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  top: 0px;
+  left: 0px;
+}
+div.frmApp{
+  display: block;
+  position: absolute;
+  visibility: visible;
+}
+div.bdrApp{
+  display: block;
+  position: absolute;
+  visibility: visible;
+}
+div.flmApp{
+  display: block;
+  position:absolute;
+}
+div.cltApp{
+  display: block;
+  position:absolute;
+
+  border: 0px solid rgba(0,0,0,0);
+
+  border-top-width:0px;
+  border-left-width: 0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  top: 0px;
+  left: 0px;
+}
+div.Cloud{
+  display:block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  background-image:url(/images/logo/dark/lgo.svg);
+  background-size:27%;
+  background-repeat:no-repeat;
+  background-position: center;
+
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+div.ScreenViews{
+  display: block;
+  position:absolute;
+  width=100%;
+  height=100%;
+
+}
+div.ScreenMainView{
+  display: block;
+  position:absolute;
+  height: 100px;
+  width=100%;
+}
+
+div.ScreenBlogView{
+  display: block;
+  position:absolute;
+  height: 100px;
+  width=100%;
+}
+
+div.ScreenMainViewImage{
+  display: block;
+  position:absolute;
+  background-repeat: no-repeat;
+  background-image: url('/atb/cp.png');
+  background-size: 180px 180px;
+  background-position: center;
+}
+
+div.ScreenMainViewScroller{
+  display: block;
+  position:absolute;
+}
+div.ScreenMainViewShowCaseButtons{
+  display: block;
+  position:absolute;
+}
+div.ContentBoxItemCMSTools{
+  font-color: rgba(150,150,150,.7);
+}
+div.ContentBoxItemIcon{
+  height: 80px;
+  width: 80px;
+  background-position: center;
+  background-size: contain;
+  background-color: rgba(255,255,255,.1);
+  border-radius: 40px;
+  box-shadow: rgba(0,0,0,1) 0px 0px 3px;
+  background-repeat: no-repeat;
+  top: 0px !important;
+  right: 0px !important;
+  margin-top: -30px;
+}
+div.ContentBoxItemCMSTools{
+  color: rgba(179,179,179,.7);
+
+}
+div.ContentBoxItemContent,
+div.ContentBoxItemTitle{
+  color: rgba(249,249,249,.9);
+}
+div.ContentBoxItemTitle[contenteditable="true"],
+div.ContentBoxItemContent[contenteditable="true"]{
+  background-color: rgba(179,179,179,.7);
+  border:1px dashed rgba(0,0,255,.5);
+  color: rgba(0,0,0,.79);
+}
+
+div.ScreenPortfolioView{
+  display: block;
+  position:absolute;
+}
+div.elmsPortfolio{
+  display: block;
+  position:absolute;
+}
+img.ElementSubItemGlyph{
+  object-fit: contain;
+}
